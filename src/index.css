@@ -1,16 +1,19 @@
+/*DM Serif Font*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --bg-color: #1a1a1a;        /* A slightly softer black */
+  --text-color: #f0f0f0;      /* A slightly softer white */
+  --primary-color: #ffffff;   /* For main headings and links */
+  --secondary-color: #a0a0a0; /* For secondary text */
+  --accent-color: #61dafb;    /* The React blue for highlights */
+  --border-color: #333333;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -23,16 +26,28 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: 'DM Serif', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  color: var(--primary-color);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-color);
+}
+
+.page-content {
+  max-width: 960px; /* Limits the width on large screens */
+  margin: 2rem auto; /* Centers the container horizontally and adds top/bottom space */
+  padding: 0 2rem;   /* Adds space on the sides so text doesn't touch the edge */
 }
 
 button {
