@@ -12,7 +12,7 @@ function App() {
         <Navbar />
 
         {/*The <main> content area will change based on the URL*/}
-        <main>
+        <main className="page-content">
             <Routes>
                 {/*Define what component to show for each URL path*/}
                 <Route path="/" element={<AboutPage />} />
