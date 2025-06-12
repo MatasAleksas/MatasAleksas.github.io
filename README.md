@@ -5,8 +5,6 @@
 
 This repository contains the source code for my personal portfolio website, built from the ground up using modern web technologies. It is a responsive single-page application designed to showcase my skills, projects, and professional experience.
 
-![Portfolio Screenshot](C:\Users\matas\PersonalProjects\Websites\personal_website\MatasAleksas.github.io\public\portfolio-screenshot.png)
-
 ---
 
 ## Features
