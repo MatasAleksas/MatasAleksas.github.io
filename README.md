@@ -1,54 +1,47 @@
-# React + TypeScript + Vite
+# Matas Aleksas - Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Site](https://img.shields.io/badge/Live_Site-View_Portfolio-green?style=for-the-badge&logo=icloud)](https://matasaleksas.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+This repository contains the source code for my personal portfolio website, built from the ground up using modern web technologies. It is a responsive single-page application designed to showcase my skills, projects, and professional experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Screenshot](./public/portfolio-screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Responsive Design:** Fully responsive layout that functions correctly on desktops, tablets, and mobile devices.
+- **Single-Page Application (SPA):** Seamless navigation between pages without full reloads, powered by React Router.
+- **Component-Based Architecture:** Built with a clean and maintainable component structure in React.
+- **Interactive Pages:** Includes sections for an About Me, Projects, a downloadable Resume, and a Contact page.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project was built using the following technologies:
+
+- **React:** A JavaScript library for building user interfaces.
+- **Vite:** A next-generation frontend tooling for a fast development experience.
+- **TypeScript:** A statically typed superset of JavaScript that adds type safety.
+- **React Router:** For declarative routing in a React application.
+- **CSS3:** For styling, using a modern approach with CSS variables for theming.
+- **GitHub Pages:** For hosting and deployment.
+
+---
+
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Ensure you have Node.js and npm installed on your machine.
+- [Node.js](https://nodejs.org/) (which includes npm)
+
+### Installation and Setup
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/MatasAleksas/MatasAleksas.github.io.git
