@@ -32,4 +32,12 @@ export const projectsData: Project[] = [
         technologies: ["Python", "Selenium", "BeautifulSoup4", "Time"],
         repoUrl: "https://github.com/MatasAleksas/Credit-Card-Scraper",
     },
+    {
+        id: 4,
+        title: "Cookie Clicker Clone",
+        description: "This was my attempt at making a cookie clicker clone back when I was in high school...",
+        imageUrl: "/public/vite.svg",
+        technologies: ["Unity", "C#"],
+        repoUrl: "https://baltic1.itch.io/cookie-clicker-clone",
+    },
 ];
